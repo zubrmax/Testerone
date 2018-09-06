@@ -26,11 +26,12 @@ body {
 	background: linear-gradient(-45deg, #CFCFCF, #555); /*rgba(239, 5, 5, 0.95);*/
 }
 #navigation ul{
-    width: 960px;
+    width: auto;
 	padding-left: 0;
 	margin: 0 auto;
     display: block;
     text-align: center;
+	padding-bottom: 40;
 }
 #menu li{
 	display: inline-block;
@@ -59,8 +60,9 @@ img {
     margin-right: auto;
     padding: 0px}
 video {
-    display: block;
+    display: block; 
     margin-left: auto;
     margin-right: auto;
     padding: 10px}
+#resume {width: 760; background: white; text-align: left}	
 iframe {width: 760px; height: 480px}
