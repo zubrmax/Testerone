@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="../CSS/style.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+	jQuery(function($) {
+		$(window).scroll(function(){
+			if($(this).scrollTop()>140){
+				$('#navigation').addClass('fixed');
+			}
+			else if ($(this).scrollTop()<140){
+				$('#navigation').removeClass('fixed');
+			}
+		});
+	});
+</script>
+</head>
+<body>
+  <div id="header">
+    <div id="navigation">
+        <ul id="menu">
+          <li><a href="../index.html">Кто я</a></li>
+          <li><a href="./whereami.html">Где я</a></li>
+            <li><a href="">Как я</a></li>
+            <li><a href="">Рядом</a></li>
+            <li><a href="">Резюме</a></li>
+        </ul>
+    </div>
+</div>
+
+  <p>Погнали!!!!!!!!!!!</p>
+  <img src="../Img/orange2.jpg" alt="orange" width="860" height="540">
+<body>
+</html>

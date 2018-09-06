@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="./CSS/style.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+	jQuery(function($) {
+		$(window).scroll(function(){
+			if($(this).scrollTop()>140){
+				$('#navigation').addClass('fixed');
+			}
+			else if ($(this).scrollTop()<140){
+				$('#navigation').removeClass('fixed');
+			}
+		});
+	});
+</script>
+</head>
+<body>
+  <div id="header">
+    <div id="navigation">
+        <ul id="menu">
+            <li><a href="./index.html">Кто я?</a></li>
+            <li><a href="Whereami/whereami.html">Где я?</a></li>
+            <li><a href="Howami/howami.html">Как я?</a></li>
+            <li><a href="Around/around.html">Рядом</a></li>
+            <li><a href="Resume/resume.html">Резюме</a></li>
+        </ul>
+    </div>
+</div>
+
+  <p>Погнали!!!!!!!!!!!</p>
+  <img src="./Img/orange2.jpg" alt="orange" width="860" height="540">
+  <video src="//www.youtube.com/embed/qwe7_-YK4IE?wmode=opaque" width="480" height="270" controls></video>
+  <iframe width="560" height="315" src="https://youtu.be/AnukTAG2T_8" frameborder="0" allowfullscreen>
+  </iframe>
+  <iframe src="//www.youtube.com/embed/AnukTAG2T_8?wmode=opaque" frameborder="0" allowfullscreen></iframe>
+  <div class="wsite-youtube" style="margin-bottom:10px;margin-top:10px;"><div class="wsite-youtube-wrapper wsite-youtube-size-auto wsite-youtube-align-center">
+<div class="wsite-youtube-container">
+
+<iframe src="//www.youtube.com/embed/AnukTAG2T_8?wmode=opaque" frameborder="0" allowfullscreen></iframe>
+</div>
+</div></div>
+<body>
+</html>
