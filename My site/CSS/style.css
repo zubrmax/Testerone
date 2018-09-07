@@ -71,7 +71,7 @@ video {
     margin-left: auto;
     margin-right: auto;
     padding: 10px}
-#resume {width: 760; background: white; text-align: left}
+#resume {width: 760px; background: white; text-align: left}
 iframe {width: 560px; height: 370px}
 .tableres {padding: 20px; border-spacing: 40px; text-align: left; vertical-align: top; margin: auto; width: auto; max-width: 760px; }
 td {vertical-align: top;}
