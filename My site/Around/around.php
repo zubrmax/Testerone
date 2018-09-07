@@ -21,20 +21,19 @@
 </head>
 <body>
   <div id="header">
-    <!--<img id="logo" src="../Img/zubrmax.jpg" alt="orange" width="160" height="40"> -->
     <div id="navigation">
         <ul id="menu">
-          <li class="zubrmax">ГДЕ</li>
-          <li><a href="../index.html">КТО</a></li>
-          <li><a href="./whereami.html">ГДЕ</a></li>
-          <li><a href="../Howami/howami.html">КАК</a></li>
-          <li><a href="../Around/around.html">МЕДИА</a></li>
-          <li><a href="../Resume/resume.html">РЕЗЮМЕ</a></li>
+          <li class="zubrmax">MEДИА</li>
+          <li><a href="../index.php">КТО</a></li>
+          <li><a href="../Whereami/whereami.php">ГДЕ</a></li>
+          <li><a href="../Howami/howami.php">КАК</a></li>
+          <li><a href="./around.php">МЕДИА</a></li>
+          <li><a href="../Resume/resume.php">РЕЗЮМЕ</a></li>
         </ul>
     </div>
 </div>
-<p class="comment">Все просто! В Новосибирске. Если приглядеться, то на фото можно разглядеть сибирских медведей. Сколько медведей вы видите?</p>
-  <img src="../Img/novosib03.jpg" alt="orange" width=100% height="450">
+<p class="comment">А тут можно вообще без комментариев просто смотреть или не смотреть.</p>
+<iframe width="734" height="412" src="https://www.youtube.com/embed/jQFJY1AGSoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   <footer><p id="pfooter"><br><br><br><br><br><br>Developed & designed by ZUBRMAX. All rights reserved. 2018.</p>
   </footer>
 <body>

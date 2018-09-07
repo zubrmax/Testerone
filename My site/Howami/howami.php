@@ -24,11 +24,11 @@
     <div id="navigation">
         <ul id="menu">
           <li class="zubrmax">КАК</li>
-          <li><a href="../index.html">КТО</a></li>
-          <li><a href="../Whereami/whereami.html">ГДЕ</a></li>
-          <li><a href="./howami.html">КАК</a></li>
-          <li><a href="../Around/around.html">МЕДИА</a></li>
-          <li><a href="../Resume/resume.html">РЕЗЮМЕ</a></li>
+          <li><a href="../index.php">КТО</a></li>
+          <li><a href="../Whereami/whereami.php">ГДЕ</a></li>
+          <li><a href="./howami.php">КАК</a></li>
+          <li><a href="../Around/around.php">МЕДИА</a></li>
+          <li><a href="../Resume/resume.php">РЕЗЮМЕ</a></li>
         </ul>
     </div>
 </div>
