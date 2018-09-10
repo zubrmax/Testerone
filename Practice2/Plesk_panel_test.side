@@ -17,7 +17,7 @@
       "id": "71908f07-dd80-4903-8e27-824b2da6bbd7",
       "comment": "",
       "command": "type",
-      "target": "xpath=//input[@id='loginSection-username']",
+      "target": "id=loginSection-username",
       "targets": [
         ["id=loginSection-username", "id"],
         ["name=login_name", "name"],
@@ -31,7 +31,7 @@
       "id": "21055e21-b10e-45ae-97a1-8c8a72ab1c4d",
       "comment": "",
       "command": "click",
-      "target": "xpath=//input[@id='loginSection-password']",
+      "target": "id=loginSection-password",
       "targets": [
         ["id=loginSection-password", "id"],
         ["name=passwd", "name"],
@@ -59,7 +59,7 @@
       "id": "bfcf1de7-c83e-4286-bd20-5bcd496d2983",
       "comment": "",
       "command": "click",
-      "target": "xpath=//button[@name='send']",
+      "target": "css=button[name=\"send\"]",
       "targets": [
         ["name=send", "name"],
         ["css=button[name=\"send\"]", "css"],
@@ -71,7 +71,7 @@
     }, {
       "id": "95ca212d-b3fc-4c14-ba2c-52daa1aa4a0b",
       "comment": "",
-      "command": "verifyText",
+      "command": "assertText",
       "target": "css=div.top-user-info-name",
       "targets": [
         ["css=div.top-user-info-name", "css"],
@@ -261,7 +261,7 @@
     }, {
       "id": "9e6775c8-a483-4ef3-abb2-285a2e46e5c7",
       "comment": "",
-      "command": "verifyText",
+      "command": "assertText",
       "target": "css=div.msg-content",
       "targets": [
         ["css=div.msg-content", "css"],
@@ -270,6 +270,340 @@
       ],
       "value": "Information: Customer Maxim Zubrinov was created."
     }]
+  }, {
+    "id": "94b2602c-d40e-46fd-8049-d4012dc28948",
+    "name": "TC3_PHP_Sett",
+    "commands": [{
+      "id": "0bd1c8fe-833b-43a9-aab3-7a13af2197d8",
+      "comment": "",
+      "command": "open",
+      "target": "/admin/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a3e735a-af4d-43f4-b645-c5423284af20",
+      "comment": "",
+      "command": "click",
+      "target": "css=li.nav-subscriptions > a > span.title",
+      "targets": [
+        ["css=li.nav-subscriptions > a > span.title", "css"],
+        ["xpath=//div[@id='page']/div[2]/div/div/div/div[2]/div[2]/ul/li[2]/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cb38b2e-100f-49ac-a4c6-62adc5ecca44",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=zubrmax.com (Default Domain)",
+      "targets": [
+        ["linkText=zubrmax.com (Default Domain)", "linkText"],
+        ["xpath=//a[contains(text(),'zubrmax.com (Default Domain)')]", "xpath:link"],
+        ["xpath=//table[@id='subscriptions-list-table']/tbody/tr[2]/td[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/subscription/overview/id/67')]", "xpath:href"],
+        ["xpath=//tr[2]/td[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f919496-fe00-47e6-ac82-192dcb66956c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[6]/a/span[2]",
+      "targets": [
+        ["//div[@id='active-list-item-d:68']/div/div[2]/div/div/div/div/div/ul/li[6]/a/span[2]", "xpath:idRelative"],
+        ["//li[6]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e710d31-f91b-402d-92c6-222cf75cd85c",
+      "comment": "",
+      "command": "click",
+      "target": "id=phpHandler",
+      "targets": [
+        ["id=phpHandler", "id"],
+        ["name=phpHandler", "name"],
+        ["css=#phpHandler", "css"],
+        ["xpath=//select[@id='phpHandler']", "xpath:attributes"],
+        ["xpath=//form[@id='smb-form-final-web-phpsettings']/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "058cb793-970c-4afe-870b-435b629ac634",
+      "comment": "",
+      "command": "select",
+      "target": "id=phpHandler",
+      "targets": [],
+      "value": "label=7.0.31"
+    }, {
+      "id": "fd5f5ed2-85ba-4a3e-951b-544b323fc910",
+      "comment": "",
+      "command": "click",
+      "target": "name=apply",
+      "targets": [
+        ["name=apply", "name"],
+        ["css=button[name=\"apply\"]", "css"],
+        ["xpath=//button[@name='apply']", "xpath:attributes"],
+        ["xpath=//span[@id='btn-apply']/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29f23b49-c8e7-4290-9753-f7c43089be47",
+      "comment": "",
+      "command": "click",
+      "target": "name=send",
+      "targets": [
+        ["name=send", "name"],
+        ["css=button[name=\"send\"]", "css"],
+        ["xpath=//button[@name='send']", "xpath:attributes"],
+        ["xpath=//span[@id='btn-send']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e8e6c0a-208b-4540-9894-3d54ba1368a7",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//li[6]/a/div",
+      "targets": [
+        ["//div[@id='active-list-item-d:67']/div/div[2]/div/div/div/div/div/ul/li[6]/a/div", "xpath:idRelative"],
+        ["//li[6]/a/div", "xpath:position"]
+      ],
+      "value": "PHP version: 7.0.31"
+    }]
+  }, {
+    "id": "de2bb1fb-c11f-4cc1-8fd4-02d4cff3a7ca",
+    "name": "TC4_Database",
+    "commands": [{
+      "id": "75e4e1cf-6a12-45d5-a687-7034d1631c57",
+      "comment": "",
+      "command": "open",
+      "target": "/smb/web/view/id/d%3A67",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75202567-e34b-4966-9a17-9f8465b07783",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[5]/a/span",
+      "targets": [
+        ["css=#gen-id-522587 > span", "css"],
+        ["xpath=//a[@id='gen-id-522587']/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94644e53-f9ac-450f-9d4c-dec03db392cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=0",
+      "targets": [
+        ["id=0", "id"],
+        ["linkText=Add Database", "linkText"],
+        ["xpath=//a[contains(text(),'Add Database')]", "xpath:link"],
+        ["xpath=//a[@id='0']", "xpath:attributes"],
+        ["xpath=//div[@id='databases-active-list']/div/div/div/div/div/table/tbody/tr/td/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/smb/database/create')]", "xpath:href"],
+        ["xpath=//td/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed08938c-b436-4d25-883e-4b0ddbdaac09",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-name",
+      "targets": [
+        ["id=user-name", "id"],
+        ["name=user[name]", "name"],
+        ["css=#user-name", "css"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='user-name-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "zubrmax"
+    }, {
+      "id": "7186a30e-ccc2-4366-ae62-2cb90ba1b571",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-password",
+      "targets": [
+        ["id=user-password", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user-password", "css"],
+        ["xpath=//input[@id='user-password']", "xpath:attributes"],
+        ["xpath=//div[@id='user-password-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Monitor#24"
+    }, {
+      "id": "638bd08e-a93e-4a82-8bde-fb98a4390f08",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-passwordConfirmation",
+      "targets": [
+        ["id=user-passwordConfirmation", "id"],
+        ["name=user[passwordConfirmation]", "name"],
+        ["css=#user-passwordConfirmation", "css"],
+        ["xpath=//input[@id='user-passwordConfirmation']", "xpath:attributes"],
+        ["xpath=//div[@id='user-passwordConfirmation-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Monitor#24"
+    }, {
+      "id": "0e2030c0-10f3-4f93-8a48-4ba4f6cf6b62",
+      "comment": "",
+      "command": "click",
+      "target": "name=send",
+      "targets": [
+        ["name=send", "name"],
+        ["css=button[name=\"send\"]", "css"],
+        ["xpath=//button[@name='send']", "xpath:attributes"],
+        ["xpath=//span[@id='btn-send']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48720693-bbbb-46fd-be55-2636c701b65e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=div.msg-box.msg-info",
+      "targets": [
+        ["css=div.msg-box.msg-info", "css"],
+        ["//div[@id='main']/div", "xpath:idRelative"],
+        ["//div[3]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "Information: The database zubrmax_ was created. "
+    }]
+  }, {
+    "id": "a1e0d907-3bae-4ba5-9fa0-5290fe40a437",
+    "name": "TC5_WordPress",
+    "commands": [{
+      "id": "037ea05b-3e89-41a0-8b9b-75d05217c238",
+      "comment": "",
+      "command": "open",
+      "target": "/smb/app/market/id/marketplace",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bdbf88e-b1a8-40ac-a5b4-d1abe36254e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mas-install-6953c7152fae2b44a52e06b8af5c143b > button.btn",
+      "targets": [
+        ["css=#mas-install-6953c7152fae2b44a52e06b8af5c143b > button.btn", "css"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["//div[@id='mas-install-6953c7152fae2b44a52e06b8af5c143b']/button", "xpath:idRelative"],
+        ["//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47729c33-7551-4ed7-b626-2e9462cc3f58",
+      "comment": "",
+      "command": "pause",
+      "target": "120000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c9c62c3-1beb-468c-b1eb-fb6157a975e4",
+      "comment": "",
+      "command": "open",
+      "target": "/modules/wp-toolkit/index.php/domain/list",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1af7891c-0d3a-4020-b1fd-1e1d987d1542",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//li[6]/a/span",
+      "targets": [
+        ["css=#pathbar-item-gen-id-971351 > a > span", "css"],
+        ["//li[@id='pathbar-item-gen-id-971351']/a/span", "xpath:idRelative"],
+        ["//li[6]/a/span", "xpath:position"]
+      ],
+      "value": "WordPress for zubrmax.com"
+    }]
+  }, {
+    "id": "1adcb59f-fa3f-4404-aca2-243a57c14ede",
+    "name": "TC6_Backup",
+    "commands": [{
+      "id": "ea1908de-1155-4222-9a2b-44655a1fab5c",
+      "comment": "",
+      "command": "open",
+      "target": "/smb/web/view",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d5cd28a-4143-4f08-a3c1-5a5ca81c1f3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=a.tool-block.js-selector > span.tool-name",
+      "targets": [
+        ["css=a.tool-block.js-selector > span.tool-name", "css"],
+        ["//div[@id='panel-web-commonButtonsSection-content']/div/div/div/div/ul/li/a/span[2]", "xpath:idRelative"],
+        ["//div[2]/div/div/div/div/div/div/div/div/div/div/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c444cfd-cfbc-44ab-9bf8-ce85bd106c7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=buttonBackup",
+      "targets": [
+        ["id=buttonBackup", "id"],
+        ["linkText=Back Up", "linkText"],
+        ["css=#buttonBackup", "css"],
+        ["//a[@id='buttonBackup']", "xpath:attributes"],
+        ["//div[@id='backup-list-operations']/a", "xpath:idRelative"],
+        ["//a[contains(@href, '/smb/backup/backup/domainId/67')]", "xpath:href"],
+        ["//div/div[2]/div/div/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "baafb493-f321-4125-83b5-ab8b3b73a8f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=backup-content-incrementalTypeRadio-full",
+      "targets": [
+        ["id=backup-content-incrementalTypeRadio-full", "id"],
+        ["name=backup[content][incrementalTypeRadio]", "name"],
+        ["css=#backup-content-incrementalTypeRadio-full", "css"],
+        ["//input[@id='backup-content-incrementalTypeRadio-full']", "xpath:attributes"],
+        ["//div[@id='backup-content-incrementalTypeRadio-form-row']/div[2]/div/div/input", "xpath:idRelative"],
+        ["//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccc342f8-e5a5-4fd8-8660-17a38cd8b772",
+      "comment": "",
+      "command": "click",
+      "target": "name=send",
+      "targets": [
+        ["name=send", "name"],
+        ["css=button[name=\"send\"]", "css"],
+        ["//button[@name='send']", "xpath:attributes"],
+        ["//span[@id='btn-send']/button", "xpath:idRelative"],
+        ["//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fb57949-7b07-47aa-aa6d-72790fca43d7",
+      "comment": "",
+      "command": "pause",
+      "target": "60000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0704a07-dd66-43a5-82bf-aad7fc6e5cb9",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//table[@id='backup-list-table']/tbody/tr/td[4]",
+      "targets": [
+        ["//table[@id='backup-list-table']/tbody/tr/td[4]", "xpath:idRelative"],
+        ["//td[4]", "xpath:position"]
+      ],
+      "value": "All configuration and content"
+    }]
   }],
   "suites": [{
     "id": "8e6e3781-ea51-4a43-8dd3-748fc0312f8e",
@@ -277,7 +611,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["413ed110-92f1-4d6c-a399-d03080188a61", "5a3f4bd9-e817-4093-a0ea-c6eb4d0bbd57"]
+    "tests": ["413ed110-92f1-4d6c-a399-d03080188a61", "5a3f4bd9-e817-4093-a0ea-c6eb4d0bbd57", "94b2602c-d40e-46fd-8049-d4012dc28948", "de2bb1fb-c11f-4cc1-8fd4-02d4cff3a7ca", "a1e0d907-3bae-4ba5-9fa0-5290fe40a437", "1adcb59f-fa3f-4404-aca2-243a57c14ede"]
   }],
   "urls": ["https://www.litmir.me/", "https://93.91.167.223:8443/"],
   "plugins": []
