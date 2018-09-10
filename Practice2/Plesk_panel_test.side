@@ -277,55 +277,30 @@
       "id": "0bd1c8fe-833b-43a9-aab3-7a13af2197d8",
       "comment": "",
       "command": "open",
-      "target": "/admin/",
+      "target": "/admin/subscription/list?context=subscriptions",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "2a3e735a-af4d-43f4-b645-c5423284af20",
-      "comment": "",
-      "command": "click",
-      "target": "css=li.nav-subscriptions > a > span.title",
-      "targets": [
-        ["css=li.nav-subscriptions > a > span.title", "css"],
-        ["xpath=//div[@id='page']/div[2]/div/div/div/div[2]/div[2]/ul/li[2]/ul/li[3]/a/span", "xpath:idRelative"],
-        ["xpath=//li[3]/a/span", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "3cb38b2e-100f-49ac-a4c6-62adc5ecca44",
       "comment": "",
       "command": "click",
-      "target": "linkText=zubrmax.com (Default Domain)",
+      "target": "xpath=//a[contains(text(),'zubrmax.com (Default Domain)')]",
       "targets": [
         ["linkText=zubrmax.com (Default Domain)", "linkText"],
-        ["xpath=//a[contains(text(),'zubrmax.com (Default Domain)')]", "xpath:link"],
-        ["xpath=//table[@id='subscriptions-list-table']/tbody/tr[2]/td[2]/div/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/admin/subscription/overview/id/67')]", "xpath:href"],
-        ["xpath=//tr[2]/td[2]/div/a", "xpath:position"]
+        ["//a[contains(text(),'zubrmax.com (Default Domain)')]", "xpath:link"],
+        ["//table[@id='subscriptions-list-table']/tbody/tr[2]/td[2]/div/a", "xpath:idRelative"],
+        ["//a[contains(@href, '/admin/subscription/overview/id/75')]", "xpath:href"],
+        ["//tr[2]/td[2]/div/a", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "4f919496-fe00-47e6-ac82-192dcb66956c",
+      "id": "1532887a-0e9d-491f-a995-d6ae3983a5c4",
       "comment": "",
       "command": "click",
-      "target": "xpath=//li[6]/a/span[2]",
+      "target": "xpath=//li[6]/a/span/img",
       "targets": [
-        ["//div[@id='active-list-item-d:68']/div/div[2]/div/div/div/div/div/ul/li[6]/a/span[2]", "xpath:idRelative"],
-        ["//li[6]/a/span[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "8e710d31-f91b-402d-92c6-222cf75cd85c",
-      "comment": "",
-      "command": "click",
-      "target": "id=phpHandler",
-      "targets": [
-        ["id=phpHandler", "id"],
-        ["name=phpHandler", "name"],
-        ["css=#phpHandler", "css"],
-        ["xpath=//select[@id='phpHandler']", "xpath:attributes"],
-        ["xpath=//form[@id='smb-form-final-web-phpsettings']/div/div/select", "xpath:idRelative"],
-        ["xpath=//select", "xpath:position"]
+        ["//div[@id='active-list-item-d:75']/div/div[2]/div/div/div/div/div/ul/li[6]/a/span/img", "xpath:idRelative"],
+        ["//li[6]/a/span/img", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -339,7 +314,7 @@
       "id": "fd5f5ed2-85ba-4a3e-951b-544b323fc910",
       "comment": "",
       "command": "click",
-      "target": "name=apply",
+      "target": "css=button[name=\"apply\"]",
       "targets": [
         ["name=apply", "name"],
         ["css=button[name=\"apply\"]", "css"],
@@ -349,10 +324,17 @@
       ],
       "value": ""
     }, {
+      "id": "3a927f5f-ec48-4ceb-b7d4-a96ea8244951",
+      "comment": "",
+      "command": "pause",
+      "target": "60000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "29f23b49-c8e7-4290-9753-f7c43089be47",
       "comment": "",
       "command": "click",
-      "target": "name=send",
+      "target": "css=button[name=\"send\"]",
       "targets": [
         ["name=send", "name"],
         ["css=button[name=\"send\"]", "css"],
@@ -361,6 +343,13 @@
         ["xpath=//div[2]/span/button", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "19a68d5e-8385-44ab-b364-5dbf89a04d1f",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "60000"
     }, {
       "id": "3e8e6c0a-208b-4540-9894-3d54ba1368a7",
       "comment": "",
