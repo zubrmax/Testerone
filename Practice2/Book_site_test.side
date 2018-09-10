@@ -1,0 +1,75 @@
+{
+  "id": "c6bc4a5a-df06-4dca-abf6-811ae2aafce3",
+  "version": "1.1",
+  "name": "Book_site_test ",
+  "url": "https://www.litmir.me",
+  "tests": [{
+    "id": "e396f36f-4f68-4caa-86ac-cc8b7b8b696b",
+    "name": "Navigation",
+    "commands": [{
+      "id": "aa8ead17-893a-4044-8507-36a6fe6b2d61",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.litmir.me/br/?b=21894",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0cbf0c8-e47c-4a9a-9ffe-f61a777ce5d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.orange_desc2",
+      "targets": [
+        ["css=span.orange_desc2", "css"],
+        ["xpath=//div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a303cc0-7990-404c-8dc7-cf8bea863cbd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=МНИМОЕ ИСКЛЮЧЕНИЕ No 2: ПАС В СТОРОНУ",
+      "targets": [
+        ["linkText=МНИМОЕ ИСКЛЮЧЕНИЕ No 2: ПАС В СТОРОНУ", "linkText"],
+        ["xpath=//a[contains(text(),'МНИМОЕ ИСКЛЮЧЕНИЕ No 2: ПАС В СТОРОНУ')]", "xpath:link"],
+        ["xpath=//div[@id='jq-dropdown-book_218942']/ul/div/table/tbody/tr[6]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/br/?b=21894&p=5#section_6')]", "xpath:href"],
+        ["xpath=//tr[6]/td/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0c9492ba-ce2b-451c-9416-2ec86440dde6",
+    "name": "Subscribtion",
+    "commands": [{
+      "id": "8869fa97-df2e-4bc8-8c4c-574b7234acb0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.litmir.me/br/?b=21894",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cedc2184-d9a6-49c6-ab0f-22443b8633bf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(@href, '/bd/?b=21894')])[2]",
+      "targets": [
+        ["linkText=Перейти к описанию", "linkText"],
+        ["css=a.lt12", "css"],
+        ["xpath=//a[contains(text(),'Перейти к описанию')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/bd/?b=21894')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "29c18e05-c772-43db-859f-7e854fa32c8d",
+    "name": "Peter_Principle",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e396f36f-4f68-4caa-86ac-cc8b7b8b696b", "0c9492ba-ce2b-451c-9416-2ec86440dde6"]
+  }],
+  "urls": ["https://www.litmir.me/"],
+  "plugins": []
+}

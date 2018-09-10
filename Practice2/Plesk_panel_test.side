@@ -1,0 +1,284 @@
+{
+  "id": "c6bc4a5a-df06-4dca-abf6-811ae2aafce3",
+  "version": "1.1",
+  "name": "Plesk_panel_test",
+  "url": "https://93.91.167.223:8443",
+  "tests": [{
+    "id": "413ed110-92f1-4d6c-a399-d03080188a61",
+    "name": "TC1 Log in",
+    "commands": [{
+      "id": "da3000dc-ee4e-420f-a684-bf8a61bde1a3",
+      "comment": "",
+      "command": "open",
+      "target": "/login_up.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71908f07-dd80-4903-8e27-824b2da6bbd7",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='loginSection-username']",
+      "targets": [
+        ["id=loginSection-username", "id"],
+        ["name=login_name", "name"],
+        ["css=#loginSection-username", "css"],
+        ["xpath=//input[@id='loginSection-username']", "xpath:attributes"],
+        ["xpath=//div[@id='loginSection-username-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "qaadmin"
+    }, {
+      "id": "21055e21-b10e-45ae-97a1-8c8a72ab1c4d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='loginSection-password']",
+      "targets": [
+        ["id=loginSection-password", "id"],
+        ["name=passwd", "name"],
+        ["css=#loginSection-password", "css"],
+        ["xpath=//input[@id='loginSection-password']", "xpath:attributes"],
+        ["xpath=//div[@id='loginSection-password-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "854a5702-6b8f-49f2-bfa8-3b4e9bd34b52",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginSection-password",
+      "targets": [
+        ["id=loginSection-password", "id"],
+        ["name=passwd", "name"],
+        ["css=#loginSection-password", "css"],
+        ["xpath=//input[@id='loginSection-password']", "xpath:attributes"],
+        ["xpath=//div[@id='loginSection-password-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "1qazXSW@"
+    }, {
+      "id": "bfcf1de7-c83e-4286-bd20-5bcd496d2983",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@name='send']",
+      "targets": [
+        ["name=send", "name"],
+        ["css=button[name=\"send\"]", "css"],
+        ["xpath=//button[@name='send']", "xpath:attributes"],
+        ["xpath=//span[@id='btn-send']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95ca212d-b3fc-4c14-ba2c-52daa1aa4a0b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.top-user-info-name",
+      "targets": [
+        ["css=div.top-user-info-name", "css"],
+        ["//div[@id='page']/div/div/div[2]/div/div[3]/ul/li/div/div/div", "xpath:idRelative"],
+        ["//li/div/div/div", "xpath:position"]
+      ],
+      "value": "Logged in as"
+    }]
+  }, {
+    "id": "5a3f4bd9-e817-4093-a0ea-c6eb4d0bbd57",
+    "name": "TC2 New Customer",
+    "commands": [{
+      "id": "1b3e8e68-b902-49b2-9fa7-41e612422770",
+      "comment": "",
+      "command": "open",
+      "target": "/admin/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7aa66ff7-784f-4180-bb99-150220734368",
+      "comment": "",
+      "command": "click",
+      "target": "css=li.nav-clients > a > span.title",
+      "targets": [
+        ["css=li.nav-clients > a > span.title", "css"],
+        ["xpath=//div[@id='page']/div[2]/div/div/div/div[2]/div[2]/ul/li[2]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b61112a-a17a-4dfc-b1eb-fc99840d269e",
+      "comment": "",
+      "command": "click",
+      "target": "css=i > span",
+      "targets": [
+        ["css=i > span", "css"],
+        ["xpath=//a[@id='buttonAddNewCustomer']/i/i/i/span", "xpath:idRelative"],
+        ["xpath=//i/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3769a8a3-07c5-4a33-a1de-74cafd908e4f",
+      "comment": "",
+      "command": "type",
+      "target": "id=contactInfoSection-contactInfo-contactName",
+      "targets": [
+        ["id=contactInfoSection-contactInfo-contactName", "id"],
+        ["name=contactInfoSection[contactInfo][contactName]", "name"],
+        ["css=#contactInfoSection-contactInfo-contactName", "css"],
+        ["xpath=//input[@id='contactInfoSection-contactInfo-contactName']", "xpath:attributes"],
+        ["xpath=//div[@id='contactInfoSection-contactInfo-contactName-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Maxim Zubrinov "
+    }, {
+      "id": "b9b05aa7-ea77-47b6-a881-0abf912cdf7f",
+      "comment": "",
+      "command": "type",
+      "target": "id=subscription-domainInfo-domainName",
+      "targets": [
+        ["id=subscription-domainInfo-domainName", "id"],
+        ["name=subscription[domainInfo][domainName]", "name"],
+        ["css=#subscription-domainInfo-domainName", "css"],
+        ["xpath=//input[@id='subscription-domainInfo-domainName']", "xpath:attributes"],
+        ["xpath=//div[@id='subscription-domainInfo-domainName-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[3]/div/div/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "zubrmax.com"
+    }, {
+      "id": "310988c7-b04e-4b09-b2d4-cb7e3f56b03d",
+      "comment": "",
+      "command": "type",
+      "target": "id=subscription-domainInfo-userName",
+      "targets": [
+        ["id=subscription-domainInfo-userName", "id"],
+        ["name=subscription[domainInfo][userName]", "name"],
+        ["css=#subscription-domainInfo-userName", "css"],
+        ["xpath=//input[@id='subscription-domainInfo-userName']", "xpath:attributes"],
+        ["xpath=//div[@id='subscription-domainInfo-userName-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[3]/div/div/div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "zubrmax"
+    }, {
+      "id": "7a9eb763-03aa-49a0-8d8a-9a99bcc25333",
+      "comment": "",
+      "command": "type",
+      "target": "id=subscription-domainInfo-password",
+      "targets": [
+        ["id=subscription-domainInfo-password", "id"],
+        ["name=subscription[domainInfo][password]", "name"],
+        ["css=#subscription-domainInfo-password", "css"],
+        ["xpath=//input[@id='subscription-domainInfo-password']", "xpath:attributes"],
+        ["xpath=//div[@id='subscription-domainInfo-password-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Monitor#24"
+    }, {
+      "id": "73d2c00b-627d-4d7b-8c65-3296574f4144",
+      "comment": "",
+      "command": "type",
+      "target": "id=subscription-domainInfo-passwordConfirmation",
+      "targets": [
+        ["id=subscription-domainInfo-passwordConfirmation", "id"],
+        ["name=subscription[domainInfo][passwordConfirmation]", "name"],
+        ["css=#subscription-domainInfo-passwordConfirmation", "css"],
+        ["xpath=//input[@id='subscription-domainInfo-passwordConfirmation']", "xpath:attributes"],
+        ["xpath=//div[@id='subscription-domainInfo-passwordConfirmation-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[3]/div/div/div[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Monitor#24"
+    }, {
+      "id": "6d2e7446-6a3c-49d9-a5e0-0ad6eefbfe21",
+      "comment": "",
+      "command": "type",
+      "target": "id=accessToPanelSection-loginInfo-userName",
+      "targets": [
+        ["id=accessToPanelSection-loginInfo-userName", "id"],
+        ["name=accessToPanelSection[loginInfo][userName]", "name"],
+        ["css=#accessToPanelSection-loginInfo-userName", "css"],
+        ["xpath=//input[@id='accessToPanelSection-loginInfo-userName']", "xpath:attributes"],
+        ["xpath=//div[@id='accessToPanelSection-loginInfo-userName-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "zubrmax"
+    }, {
+      "id": "0e0f1c6e-b5bd-47ae-adfd-28c8b74e6674",
+      "comment": "",
+      "command": "type",
+      "target": "id=accessToPanelSection-loginInfo-password",
+      "targets": [
+        ["id=accessToPanelSection-loginInfo-password", "id"],
+        ["name=accessToPanelSection[loginInfo][password]", "name"],
+        ["css=#accessToPanelSection-loginInfo-password", "css"],
+        ["xpath=//input[@id='accessToPanelSection-loginInfo-password']", "xpath:attributes"],
+        ["xpath=//div[@id='accessToPanelSection-loginInfo-password-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Monitor#24"
+    }, {
+      "id": "a61d5245-32ee-4ed2-a0f0-a5d437491662",
+      "comment": "",
+      "command": "type",
+      "target": "id=accessToPanelSection-loginInfo-passwordConfirmation",
+      "targets": [
+        ["id=accessToPanelSection-loginInfo-passwordConfirmation", "id"],
+        ["name=accessToPanelSection[loginInfo][passwordConfirmation]", "name"],
+        ["css=#accessToPanelSection-loginInfo-passwordConfirmation", "css"],
+        ["xpath=//input[@id='accessToPanelSection-loginInfo-passwordConfirmation']", "xpath:attributes"],
+        ["xpath=//div[@id='accessToPanelSection-loginInfo-passwordConfirmation-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div/div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Monitor#24"
+    }, {
+      "id": "edce81bb-2441-4071-9c8c-11f326e57c18",
+      "comment": "",
+      "command": "type",
+      "target": "id=contactInfoSection-contactInfo-email",
+      "targets": [
+        ["id=contactInfoSection-contactInfo-email", "id"],
+        ["name=contactInfoSection[contactInfo][email]", "name"],
+        ["css=#contactInfoSection-contactInfo-email", "css"],
+        ["xpath=//input[@id='contactInfoSection-contactInfo-email']", "xpath:attributes"],
+        ["xpath=//div[@id='contactInfoSection-contactInfo-email-form-row']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "mizubrinov@mail.ru"
+    }, {
+      "id": "c2784536-dfec-481a-ba7d-ca50598c018f",
+      "comment": "",
+      "command": "click",
+      "target": "name=send",
+      "targets": [
+        ["name=send", "name"],
+        ["css=button[name=\"send\"]", "css"],
+        ["xpath=//button[@name='send']", "xpath:attributes"],
+        ["xpath=//span[@id='btn-send']/button", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[2]/span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "994f5f13-1dae-43b5-8737-87ce490b7334",
+      "comment": "",
+      "command": "pause",
+      "target": "90000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e6775c8-a483-4ef3-abb2-285a2e46e5c7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.msg-content",
+      "targets": [
+        ["css=div.msg-content", "css"],
+        ["//div[@id='main']/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["//div[3]/div/div/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Information: Customer Maxim Zubrinov was created."
+    }]
+  }],
+  "suites": [{
+    "id": "8e6e3781-ea51-4a43-8dd3-748fc0312f8e",
+    "name": "BVT",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["413ed110-92f1-4d6c-a399-d03080188a61", "5a3f4bd9-e817-4093-a0ea-c6eb4d0bbd57"]
+  }],
+  "urls": ["https://www.litmir.me/", "https://93.91.167.223:8443/"],
+  "plugins": []
+}
