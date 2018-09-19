@@ -19,7 +19,7 @@ October 2016 - July 2018
 
 1 year 10 months
 
-#### AcademsStroyResurs LLC
+#### AcademStroyResurs LLC
 
 Construction
 
@@ -69,8 +69,6 @@ Logistic
 ### Education
 Higher education
 
-### Advanced training courses
-
 
 
 #### Russian Federation Justice Ministry International Law Institute  
@@ -84,6 +82,11 @@ Higher education
 #### Novosibirsk State Technical University
 
 , Novosibirsk 1990 Radio Engineering
+
+
+
+### Advanced training courses
+
 
 #### Programming
 
