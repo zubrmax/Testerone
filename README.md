@@ -1,4 +1,106 @@
 # Testerone
+# Zubrinov Maxim Ivanovich
+
+* Man, 46 years old, was born on September 12, 1972 * +7 (913) 9875360 * mizubrinov@mail.ru* RUSSIAN FDERATION, Novosibirsk sity * Ready to move
+
+
+
+### QA Engineer
+
+
+
+Schedule: flexible schedule, full day, remote work
+
+
+
+#### experience 23 years 4 months experience 
+
+October 2016 - July 2018
+
+1 year 10 months
+
+#### AcademsStroyResurs LLC
+
+Construction
+
+
+
+##### Principal
+
+January 2013 - September 2016
+
+3 years 9 months
+
+#### OOO "GarantStroyServis"
+
+Novosibirsk
+Construction
+
+##### Logistics Department Head
+
+
+April 2005 - April 2012
+
+7 years 1 month
+
+#### Group of Companies "RegionTrade"
+
+Novosibirsk
+multi-profile assets managment
+
+
+##### 2006-2012 OOO Region Trade Company Novosibirsk
+
+2008-2012
+Logistics Department Head. 
+
+##### 2007-2008
+Logistics Department Deputy Head 
+
+
+
+##### 2005-2007 Investstroy, Region Trade Novosibirsk
+Logistic
+
+
+
+
+
+### Education
+Higher education
+
+### Advanced training courses
+
+
+
+#### Russian Federation Justice Ministry International Law Institute  
+
+, Moscow 2017 Law Faculty
+
+#### Novosibirsk National Research University
+
+, Novosibirsk 1992 Physical
+
+#### Novosibirsk State Technical University
+
+, Novosibirsk 1990 Radio Engineering
+
+#### Programming
+
+1989
+NPO Sistema, qualification: laboratory assistant programmer (programming languages ??FORTRAN-1U,
+
+PASCAL) 
+
+
+#### Main skills
+Analysys 
+Self-learning
+Systems approach
+Optimization
+
+
+# Testerone
 # Зубринов Максим Иванович
 
 *   Мужчина, 45 лет, родился 12 сентября 1972*   +7 (913) 9875360*   mizubrinov@mail.ru*   Проживает: Новосибирск*   Гражданство: Россияs*   Готов к переезду, готов к редким командировкам</td>
