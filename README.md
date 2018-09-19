@@ -1,7 +1,7 @@
 # Testerone
 # Zubrinov Maxim Ivanovich
 
-* Man, 46 years old, was born on September 12, 1972 * +7 (913) 9875360 * mizubrinov@mail.ru* RUSSIAN FDERATION, Novosibirsk sity * Ready to move
+* Man, 46 years old, was born on September 12, 1972 * +7 (913) 9875360 * mizubrinov@mail.ru* RUSSIAN FEDERATION, Novosibirsk sity * Ready to move
 
 
 
@@ -13,7 +13,7 @@ Schedule: flexible schedule, full day, remote work
 
 
 
-#### experience 23 years 4 months experience 
+#### 23 years 4 months experience 
 
 October 2016 - July 2018
 
