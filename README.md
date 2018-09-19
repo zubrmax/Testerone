@@ -87,6 +87,10 @@ Higher education
 
 ### Advanced training courses
 
+#### Software Testing
+
+2018
+Suhorukov IT Academy
 
 #### Programming
 
